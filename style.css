@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+   background-image: url(./assets/background-image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Raleway', sans-serif;
+   height: 100vh;
+   
+}
+nav{
+    display: flex;
+   margin: 20px;
+   
+   
+    
+    
+}
+.logo {
+    margin-left: 120px;
+    margin-right: 240px;
+    margin-top: 10px;
+    color:  #fff;
+    font-size: larger;
+   
+}  
+
+
+.list-items{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 0px;
+    
+    
+
+}
+.list-item {
+    margin-right: 60px;
+    cursor: pointer;
+    
+}
+.list-item:hover{
+    text-decoration: underline;
+}
+.navigation-center {
+    display: flex;
+    border-bottom: #fff 3px solid;
+margin-left: 40px;
+ height: 13vh;
+ 
+
+    
+}
+.contact-info{
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    
+    
+}
+.phone-logo {
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+
+.content {
+    display: flex;
+    
+   
+}
+
+.hearo-heading,h1 { 
+    font-family:  'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    font-size: 90px;
+   margin: 90px 160px ;
+    
+}
+.hero-button {
+    margin-left: 160px;
+    color: #fff;
+    padding: 20px 60px;
+    border: #fff solid;
+    border-radius: 40px;
+    background: none;
+    font-size: 30px;
+    
+}
+.hero-button:hover{
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+.container-transparent {
+    
+    width: 210px;
+    margin: 10px;
+    padding: 20px 20px 5px 20px;
+   
+ }
+ .container-image,img{
+    height: 30px;
+ }
+.container-image{
+    background-color: #fff;
+    padding: 20px 30px 5px 30px;
+    border-radius: 25px;
+    
+}
+div.container-transparent {
+    background: rgba(228, 230, 228, 0.223);
+}
+ .container-text {
+    color: #fff;
+    font-weight: 600;
+ }
+
+ .container-float {
+    position: absolute;
+    bottom: 80px;
+    right: 300px;
+ }
+
+ .container-line1 {
+    width: 1px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  .circle1 {
+    display: inline-block;
+    vertical-align: auto;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -4px;
+  }
+  .container-line2 {
+    width: 60px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  .circle2 {
+    display: inline-block;
+    vertical-align: auto;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 60px;
+  }
+
+  .line1 {
+    position: absolute;
+    right: 200px;
+    top: 305px;
+  }
+  .line2{
+    position: absolute;
+    bottom: 170px;
+    right: 250px;
+  }
