@@ -10,12 +10,12 @@ body{
 }
 nav{
     display: flex;
-   margin: 20px;
-   
-   
-    
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 20px; 
     
 }
+
 .logo {
     margin-left: 120px;
     margin-right: 240px;
@@ -47,15 +47,18 @@ nav{
 }
 .navigation-center {
     display: flex;
+    align-items: center;
     border-bottom: #fff 3px solid;
-margin-left: 40px;
- height: 13vh;
+    margin-left: 40px;
+    height: 13vh;
  
 
     
 }
 .contact-info{
     display: flex;
+    align-items: center;
+    gap: 4px;
     color: #fff;
     font-weight: 600;
     
@@ -63,8 +66,36 @@ margin-left: 40px;
 }
 .phone-logo {
     height: 30px;
-    margin-top: 20px;
-    margin-right: 5px;
+    
+}
+@media only screen and (max-width:1390px) {
+    .list-items,.contact-info {
+        display: none;
+    }
+    .logo::after{
+        content: "";
+        display: block;
+        background: url(./assets/menu.png);
+        height: 50px;
+        width: 40px;
+        position: absolute;
+        top: 60px;
+        right: 120px;
+        cursor: pointer;
+    }
+    .logo{
+        margin-left: 80px;
+    }
+    
+}
+@media only screen and (max-width:600px) {
+    .logo{
+        margin-left: 20px;
+    }
+    .logo::after{
+        right: 60px;
+    }
+
 }
 
 
