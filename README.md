@@ -9,7 +9,7 @@ I'm Wasit Ali and this is my 10th project on HTML and CSS.
 
 ![](./assets/2022-10-14-15-19-37.png)
 
-🚀 [Live Preview](https://bejewelled-quokka-dd9b15.netlify.app/)
+🚀 [Live Preview](https://live-class-project-10-mu.vercel.app/)
 
 ## 🛠️ What I have learned in this project?
 
